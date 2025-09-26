@@ -51,11 +51,10 @@ Steps applied to clean and normalize SMS text:
 - Achieved **98.83% accuracy** on the test dataset.  
 - Confusion Matrix:
 
+```sh
 [[961 5]
 [ 8 141]]
-
-yaml
-Copy code
+```
 
 - **True Negatives (ham correct):** 961  
 - **False Positives (ham → spam):** 5  
