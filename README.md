@@ -56,6 +56,9 @@ Steps applied to clean and normalize SMS text:
 [ 8 141]]
 ```
 
+This indicates that out of 1,115 messages in the test set, 961 true 'ham' messages were correctly classified,
+5 'ham' messages were incorrectly classified as 'spam', 141 true 'spam' messages were correctly classified, and 8 'spam' messages were incorrectly classified as 'ham'.
+
 - **True Negatives (ham correct):** 961  
 - **False Positives (ham → spam):** 5  
 - **False Negatives (spam → ham):** 8  
